@@ -1,0 +1,35 @@
+*{
+	padding:0;
+	margin:0;
+	text-decoration: none;
+/*	text-transform: uppercase;*/
+}
+
+nav{
+	height:70px;
+	width:100%;
+	background-color: grey;
+}
+
+label.logo{
+	font-size: 30px;
+	padding:0 15%;
+	line-height: 80px;
+}
+
+Link.active, Link:hover{
+	background:#1b9bff;
+	transition: .5s;
+}
+
+ul{
+	float: right;
+	margin-right: 50px;
+}
+
+ul li, li:hover{
+	list-style: none;
+	line-height: 80px;
+	padding-right: 10px;
+	display: inline-block;
+}
